@@ -2,7 +2,7 @@ const express = require('express');
 const fs = require('fs').promises;
 const path = require('path');
 
-const app = express();
+const aaplication = express();
 const PORT = 4000;
 
 const filePath = path.join(__dirname, '../shared/data.txt');
